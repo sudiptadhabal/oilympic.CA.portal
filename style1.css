@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+.owl-carousel .owl-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonial {
+    margin: auto;
+    font-family: 'Kite One', sans-serif;
+    padding-top: 10px;
+
+}
+.testimonials{
+    padding-top:100px;
+    text-align: center;
+}
+.owl-carousel .owl-item .card {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    height:370px;
+    width: 300px;
+    margin: auto;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow-y: auto !important;
+    padding-bottom: 10px;
+}
+
+.owl-carousel .owl-item img {
+    height: 90px;
+    width:90px !important;
+    margin: auto;
+    border-radius:100% !important;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.owl-carousel .owl-item .card .name {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 15px #b4b6c2;
+    font-family: 'Kite One';
+    margin:auto;
+    padding: 10px;
+    width: 200px;
+}
+.owl-item{
+    background-color: #000;
+    border-radius: 20px;
+    
+}
+.owl-carousel .owl-item .card {
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item.active.center .card {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+
+.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    margin-top:0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 20px;
+    background: #20B2AA !important;
+    border-radius: 2px !important;
+    opacity: 0.8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    height: 13px;
+    width: 13px;
+    opacity: 1;
+    transform: translateY(2px);
+    background: #25cec6 !important;
+}
+.slides{
+    background: #111;
+    font-family: mttmilano, sans-serif;
+    color: #fff;
+   }
+   .h1,
+   h1 {
+     font-size: 42px;
+     line-height: 1.285;
+     font-weight: 300;
+     margin-bottom: 25px;
+     letter-spacing: -0.036em;
+   }
+
+ 
+@media all and (min-width: 200px)  {
+    .testimonials{
+        padding-top: 170px;
+        margin-top: 10px;
+        
+    }
+}
+    .owl-carousel .owl-item .card {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    height:max-content;
+    margin:auto;
+    
+}
+
+
+
+
+@media(min-width: 1000px) {
+    .testimonials{
+        padding-top: 100px;
+    }
+} 
+
+
+
+
+  
+
+
+
